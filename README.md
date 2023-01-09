@@ -13,6 +13,7 @@ inspection of this repo.
 
 ## Examples
 
+```
 is-approved --approvers buzza,dwightf Workspace/Apollo/Source/Eleven/main.c
     Returns YES
 is_approved --approvers dwightf,robertc Workspace/Apollo/Source/Eleven/main.c
@@ -21,10 +22,11 @@ is-approved --approvers dwightf,alberte Workspace/Apollo/Source/Eleven/main.c
     Returns NO
 is-approved --approvers admin Workspace/ThirdParty/CocoaLumberjack/main.c
     Returns YES
-
+```
 
 ## Owners
 
+```
 admin
 alberte
 annec
@@ -34,10 +36,11 @@ dwightf
 richardf
 robertc
 stevej
-
+```
 
 ## Directories
 
+```
 .
 ├── Configs
 │  ├── config.rc
@@ -98,3 +101,4 @@ stevej
       │  └── main.c
       └── Tests
          └── test.c
+```
