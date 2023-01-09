@@ -10,19 +10,21 @@ from all OWNERS files.
 The "Directories" subsection below shows the directory tree. Useful for a quick
 inspection of this repo.
 
-Examples
-========
-is_approved --approvers buzza,dwightf Workspace/Apollo/Source/Eleven/main.c
+
+## Examples
+
+is-approved --approvers buzza,dwightf Workspace/Apollo/Source/Eleven/main.c
     Returns YES
 is_approved --approvers dwightf,robertc Workspace/Apollo/Source/Eleven/main.c
     Returns YES
-is_approved --approvers dwightf,alberte Workspace/Apollo/Source/Eleven/main.c
+is-approved --approvers dwightf,alberte Workspace/Apollo/Source/Eleven/main.c
     Returns NO
-is_approved --approvers admin Workspace/ThirdParty/CocoaLumberjack/main.c
+is-approved --approvers admin Workspace/ThirdParty/CocoaLumberjack/main.c
     Returns YES
 
-Owners
-======
+
+## Owners
+
 admin
 alberte
 annec
@@ -33,8 +35,9 @@ richardf
 robertc
 stevej
 
-Directories
-===========
+
+## Directories
+
 .
 ├── Configs
 │  ├── config.rc
