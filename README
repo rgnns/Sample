@@ -1,3 +1,26 @@
+This is a sample project, feel free to clone it and do what you want
+with it.
+
+The "Examples" subsection below shows examples of approval checks based
+on the OWNERS structure of this repo.
+
+The "Owners" subsection below shows the list of _all_ usernames aggregated
+from all OWNERS files.
+
+The "Directories" subsection below shows the directory tree. Useful for a quick
+inspection of this repo.
+
+Examples
+========
+is_approved --approvers buzza,dwightf Workspace/Apollo/Source/Eleven/main.c
+    Returns YES
+is_approved --approvers dwightf,robertc Workspace/Apollo/Source/Eleven/main.c
+    Returns YES
+is_approved --approvers dwightf,alberte Workspace/Apollo/Source/Eleven/main.c
+    Returns NO
+is_approved --approvers admin Workspace/ThirdParty/CocoaLumberjack/main.c
+    Returns YES
+
 Owners
 ======
 admin
